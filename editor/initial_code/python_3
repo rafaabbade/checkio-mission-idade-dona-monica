@@ -7,8 +7,10 @@ print("Example:")
 print(filho_mais_velho(52, 14, 18))
 
 # As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+# Teste 1 - Caso a idade do filho mais velho não esteja nos parâmetros
 assert filho_mais_velho(52, 14, 18) == 20
 
+# Teste 2 - Caso a idade do filho mais velho esteja nos parâmetros
 assert filho_mais_velho(47, 21, 9) == 21
     
 print("Seu código passou pelos testes, clique em Check para avançar!")
