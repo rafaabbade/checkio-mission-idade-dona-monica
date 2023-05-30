@@ -1,19 +1,14 @@
-def ordem_desfile(n_recrutas, alturas):
+def filho_mais_velho(mae, filho1, filho2):
     # escreva aqui seu código
     return None
 
 
 print("Example:")
-print(ordem_desfile(5,[1500, 1600, 1700, 1700, 1800]))
+print(filho_mais_velho(52, 14, 18))
 
 # As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
-# Teste 1
-assert ordem_desfile(5, [1500, 1600, 1700, 1700, 1800]) == 'S'
+assert filho_mais_velho(52, 14, 18) == 20
 
-# Teste 2
-assert ordem_desfile(5, [1900, 1850, 1800, 1750, 1700]) == 'N'
-
-# Teste 3
-assert ordem_desfile(5, [1600, 1600, 1600, 1600, 1600]) == 'S'
+assert filho_mais_velho(47, 21, 9) == 21
     
 print("Seu código passou pelos testes, clique em Check para avançar!")
